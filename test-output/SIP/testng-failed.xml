@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SIP]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="All_Merged_APIs_Cases.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="API_TestCases(failed)">
+    <classes>
+      <class name="All_Merged_APIs_Cases.Reports_ControllerAPIs">
+        <methods>
+          <include name="GetOutlet"/>
+        </methods>
+      </class> <!-- All_Merged_APIs_Cases.Reports_ControllerAPIs -->
+      <class name="All_Merged_APIs_Cases.Booking_Controller_APIs">
+        <methods>
+          <include name="getColumnNames"/>
+          <include name="getManualDocket"/>
+          <include name="getCustomerSVOC"/>
+          <include name="getDocumentList"/>
+          <include name="getLoanStatus"/>
+          <include name="getBookingList"/>
+          <include name="getCustomerTAG_BookingIdv"/>
+          <include name="getDocument"/>
+          <include name="getReceiptDetails"/>
+          <include name="getBookingsColumnWise"/>
+          <include name="getCustomerTAGList"/>
+          <include name="Booking_Details_BookingIdv"/>
+        </methods>
+      </class> <!-- All_Merged_APIs_Cases.Booking_Controller_APIs -->
+    </classes>
+  </test> <!-- API_TestCases(failed) -->
+</suite> <!-- Failed suite [SIP] -->

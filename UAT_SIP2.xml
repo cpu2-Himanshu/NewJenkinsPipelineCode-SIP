@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <listeners>
+<listener class-name="UAT_SIP2.ExtentReportListener"/>
+</listeners>
+<test name="UAT_SIP2">
+<classes>
+<class name="UAT_SIP2.Additional_Fillter"/>
+<class name="UAT_SIP2.Pending_Booking_Sorting"/>
+<class name="UAT_SIP2.Cancelled_Booking_Sorting"/>
+<class name="UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date"/>
+<class name="UAT_SIP2.Customer_Query"/>
+<class name="UAT_SIP2.Customer_Tag"/>
+<class name="UAT_SIP2.Check_On_Road_Price"/>
+<class name="UAT_SIP2.SVOC"/>
+<class name="UAT_SIP2.Check_Offer"/>
+<class name="UAT_SIP2.Documentation_Reports"/>
+<class name="UAT_SIP2.Call_Dispostion"/>
+
+</classes>
+</test>
+<!--  Test  -->
+</suite>
+<!--  Suite  -->

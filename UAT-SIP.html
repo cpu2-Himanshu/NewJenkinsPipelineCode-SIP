@@ -1,0 +1,5248 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>API Automation Test Report-Of-SIP</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa -report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Test Execution Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 1, 2025 04:59:04 pm</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">UAT_SIP2.Cancelled_Booking_Sorting</a><a class="dropdown-item" href="#">UAT_SIP2.Pending_Booking_Sorting</a><a class="dropdown-item" href="#">UAT_SIP2.Additional_Fillter</a><a class="dropdown-item" href="#">UAT_SIP2.Customer_Tag</a><a class="dropdown-item" href="#">UAT_SIP2.SVOC</a><a class="dropdown-item" href="#">UAT_SIP2.Documentation_Reports</a><a class="dropdown-item" href="#">UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date</a><a class="dropdown-item" href="#">UAT_SIP2.Customer_Query</a><a class="dropdown-item" href="#">UAT_SIP2.Check_On_Road_Price</a><a class="dropdown-item" href="#">UAT_SIP2.Check_Offer</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag="UAT_SIP2.Additional_Fillter"
+          device="">
+          <div class="test-detail">
+            <p class="name">PopuPhandle</p>
+            <p class="text-sm">
+              <span>4:59:07 pm</span> / <span>00:00:06:593</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">PopuPhandle</h5>
+<span class='badge badge-success'>04.01.2025 4:59:07 pm</span>
+<span class='badge badge-danger'>04.01.2025 4:59:13 pm</span>
+<span class='badge badge-default'>00:00:06:593</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Additional_Fillter</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:59:13 pm</td>
+        <td>
+          PopuPhandle TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:59:13 pm</td>
+        <td>
+          Execution Time: 0 min 6 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author=""
+          tag="UAT_SIP2.Additional_Fillter"
+          device="">
+          <div class="test-detail">
+            <p class="name">Dealer_User_Login1</p>
+            <p class="text-sm">
+              <span>4:59:13 pm</span> / <span>00:00:04:657</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Dealer_User_Login1</h5>
+<span class='badge badge-success'>04.01.2025 4:59:13 pm</span>
+<span class='badge badge-danger'>04.01.2025 4:59:18 pm</span>
+<span class='badge badge-default'>00:00:04:657</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Additional_Fillter</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:59:18 pm</td>
+        <td>
+          Dealer_User_Login1 TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:59:18 pm</td>
+        <td>
+          Execution Time: 0 min 4 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author=""
+          tag="UAT_SIP2.Additional_Fillter"
+          device="">
+          <div class="test-detail">
+            <p class="name">Click_On_SIP</p>
+            <p class="text-sm">
+              <span>4:59:18 pm</span> / <span>00:00:06:034</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Click_On_SIP</h5>
+<span class='badge badge-success'>04.01.2025 4:59:18 pm</span>
+<span class='badge badge-danger'>04.01.2025 4:59:24 pm</span>
+<span class='badge badge-default'>00:00:06:034</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Additional_Fillter</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:59:24 pm</td>
+        <td>
+          Click_On_SIP TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:59:24 pm</td>
+        <td>
+          Execution Time: 0 min 6 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="4"
+          author=""
+          tag="UAT_SIP2.Additional_Fillter"
+          device="">
+          <div class="test-detail">
+            <p class="name">Click_On_Additional_Fillter_To_Clear_Data</p>
+            <p class="text-sm">
+              <span>4:59:24 pm</span> / <span>00:00:03:338</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Click_On_Additional_Fillter_To_Clear_Data</h5>
+<span class='badge badge-success'>04.01.2025 4:59:24 pm</span>
+<span class='badge badge-danger'>04.01.2025 4:59:27 pm</span>
+<span class='badge badge-default'>00:00:03:338</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Additional_Fillter</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:59:27 pm</td>
+        <td>
+          Click_On_Additional_Fillter_To_Clear_Data TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:59:27 pm</td>
+        <td>
+          Execution Time: 0 min 3 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author=""
+          tag="UAT_SIP2.Additional_Fillter"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_Booking_Date_Fillter</p>
+            <p class="text-sm">
+              <span>4:59:27 pm</span> / <span>00:00:07:462</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify_Booking_Date_Fillter</h5>
+<span class='badge badge-success'>04.01.2025 4:59:27 pm</span>
+<span class='badge badge-danger'>04.01.2025 4:59:35 pm</span>
+<span class='badge badge-default'>00:00:07:462</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Additional_Fillter</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:59:35 pm</td>
+        <td>
+          Verify_Booking_Date_Fillter TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:59:35 pm</td>
+        <td>
+          Execution Time: 0 min 7 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="6"
+          author=""
+          tag="UAT_SIP2.Additional_Fillter"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_MODEL_Fillter</p>
+            <p class="text-sm">
+              <span>4:59:35 pm</span> / <span>00:00:05:173</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify_MODEL_Fillter</h5>
+<span class='badge badge-success'>04.01.2025 4:59:35 pm</span>
+<span class='badge badge-danger'>04.01.2025 4:59:40 pm</span>
+<span class='badge badge-default'>00:00:05:173</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Additional_Fillter</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>4:59:40 pm</td>
+        <td>
+          Verify_MODEL_Fillter TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:59:40 pm</td>
+        <td>
+          Execution Time: 0 min 5 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="7"
+          author=""
+          tag="UAT_SIP2.Additional_Fillter"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_Varient_Fillter</p>
+            <p class="text-sm">
+              <span>4:59:40 pm</span> / <span>00:00:18:692</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify_Varient_Fillter</h5>
+<span class='badge badge-success'>04.01.2025 4:59:40 pm</span>
+<span class='badge badge-danger'>04.01.2025 4:59:58 pm</span>
+<span class='badge badge-default'>00:00:18:692</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=7</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Additional_Fillter</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>4:59:58 pm</td>
+        <td>
+          Verify_Varient_Fillter - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>4:59:58 pm</td>
+        <td>
+          Failure Reason: Varient name select FAILED
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>4:59:58 pm</td>
+        <td>
+          Execution Time: 0 min 18 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="8"
+          author=""
+          tag="UAT_SIP2.Additional_Fillter"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_Booking_Amount_Fillter</p>
+            <p class="text-sm">
+              <span>4:59:58 pm</span> / <span>00:00:05:179</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify_Booking_Amount_Fillter</h5>
+<span class='badge badge-success'>04.01.2025 4:59:58 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:04 pm</span>
+<span class='badge badge-default'>00:00:05:179</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=8</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Additional_Fillter</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:00:04 pm</td>
+        <td>
+          Verify_Booking_Amount_Fillter TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:04 pm</td>
+        <td>
+          Execution Time: 0 min 5 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="9"
+          author=""
+          tag="UAT_SIP2.Additional_Fillter"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_Sales_Executive_NAME_Fillter</p>
+            <p class="text-sm">
+              <span>5:00:04 pm</span> / <span>00:00:08:211</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify_Sales_Executive_NAME_Fillter</h5>
+<span class='badge badge-success'>04.01.2025 5:00:04 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:12 pm</span>
+<span class='badge badge-default'>00:00:08:211</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=9</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Additional_Fillter</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:00:12 pm</td>
+        <td>
+          Verify_Sales_Executive_NAME_Fillter TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:12 pm</td>
+        <td>
+          Execution Time: 0 min 8 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="10"
+          author=""
+          tag="UAT_SIP2.Additional_Fillter"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_Tentative_DeliveryDATE_Fillter</p>
+            <p class="text-sm">
+              <span>5:00:12 pm</span> / <span>00:00:07:512</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify_Tentative_DeliveryDATE_Fillter</h5>
+<span class='badge badge-success'>04.01.2025 5:00:12 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:19 pm</span>
+<span class='badge badge-default'>00:00:07:512</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=10</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Additional_Fillter</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:00:19 pm</td>
+        <td>
+          Verify_Tentative_DeliveryDATE_Fillter TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:19 pm</td>
+        <td>
+          Execution Time: 0 min 7 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="11"
+          author=""
+          tag="UAT_SIP2.Additional_Fillter"
+          device="">
+          <div class="test-detail">
+            <p class="name">Close_Additional_Fillter</p>
+            <p class="text-sm">
+              <span>5:00:19 pm</span> / <span>00:00:00:153</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Close_Additional_Fillter</h5>
+<span class='badge badge-success'>04.01.2025 5:00:19 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:20 pm</span>
+<span class='badge badge-default'>00:00:00:153</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=11</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Additional_Fillter</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:00:20 pm</td>
+        <td>
+          Close_Additional_Fillter TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:20 pm</td>
+        <td>
+          Execution Time: 0 min 0 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="12"
+          author=""
+          tag="UAT_SIP2.Pending_Booking_Sorting"
+          device="">
+          <div class="test-detail">
+            <p class="name">Click_On_Items_Per_Page</p>
+            <p class="text-sm">
+              <span>5:00:20 pm</span> / <span>00:00:00:074</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Click_On_Items_Per_Page</h5>
+<span class='badge badge-success'>04.01.2025 5:00:20 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:20 pm</span>
+<span class='badge badge-default'>00:00:00:074</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=12</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Pending_Booking_Sorting</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:00:20 pm</td>
+        <td>
+          Click_On_Items_Per_Page TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:20 pm</td>
+        <td>
+          Execution Time: 0 min 0 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="13"
+          author=""
+          tag="UAT_SIP2.Pending_Booking_Sorting"
+          device="">
+          <div class="test-detail">
+            <p class="name">Sale_Executive_Name_Sorting</p>
+            <p class="text-sm">
+              <span>5:00:20 pm</span> / <span>00:00:02:586</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Sale_Executive_Name_Sorting</h5>
+<span class='badge badge-success'>04.01.2025 5:00:20 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:22 pm</span>
+<span class='badge badge-default'>00:00:02:586</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=13</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Pending_Booking_Sorting</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:00:22 pm</td>
+        <td>
+          Sale_Executive_Name_Sorting - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:00:22 pm</td>
+        <td>
+          Failure Reason: (Pending-Booking) Total Count of Sales Executive Name In Lowercase: 17
+The following Sales Executive Name are not in uppercase: Ajeet Yadav, Manish Sharma, Manish Sharma, Manish Sharma, Manish Sharma, Rakesh Kumawat, Rakesh Kumawat, Rakesh Kumawat, Rakesh Kumawat, Rakesh Kumawat, Somya Sharma Sharma, Sumer Singh, Sumer Singh, Zaid Qureshi, Zaid Qureshi, Zaid Qureshi, Zaid Qureshi
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:22 pm</td>
+        <td>
+          Execution Time: 0 min 2 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="14"
+          author=""
+          tag="UAT_SIP2.Pending_Booking_Sorting"
+          device="">
+          <div class="test-detail">
+            <p class="name">Cutomer_Name_Sorting</p>
+            <p class="text-sm">
+              <span>5:00:22 pm</span> / <span>00:00:02:630</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Cutomer_Name_Sorting</h5>
+<span class='badge badge-success'>04.01.2025 5:00:22 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:25 pm</span>
+<span class='badge badge-default'>00:00:02:630</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=14</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Pending_Booking_Sorting</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:00:25 pm</td>
+        <td>
+          Cutomer_Name_Sorting - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:00:25 pm</td>
+        <td>
+          Failure Reason: (Pending-Booking)Total Count of customers name In Lowercase: 1
+The following customers name are not in uppercase: shnakr SINGH
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:25 pm</td>
+        <td>
+          Execution Time: 0 min 2 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="15"
+          author=""
+          tag="UAT_SIP2.Pending_Booking_Sorting"
+          device="">
+          <div class="test-detail">
+            <p class="name">verify_Booking_Date_Sorting</p>
+            <p class="text-sm">
+              <span>5:00:25 pm</span> / <span>00:00:01:645</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verify_Booking_Date_Sorting</h5>
+<span class='badge badge-success'>04.01.2025 5:00:25 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:26 pm</span>
+<span class='badge badge-default'>00:00:01:645</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=15</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Pending_Booking_Sorting</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:00:26 pm</td>
+        <td>
+          verify_Booking_Date_Sorting TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:26 pm</td>
+        <td>
+          Execution Time: 0 min 1 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="16"
+          author=""
+          tag="UAT_SIP2.Pending_Booking_Sorting"
+          device="">
+          <div class="test-detail">
+            <p class="name">Model_Name_Sorting</p>
+            <p class="text-sm">
+              <span>5:00:26 pm</span> / <span>00:00:02:505</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Model_Name_Sorting</h5>
+<span class='badge badge-success'>04.01.2025 5:00:26 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:29 pm</span>
+<span class='badge badge-default'>00:00:02:505</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=16</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Pending_Booking_Sorting</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:00:29 pm</td>
+        <td>
+          Model_Name_Sorting - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:00:29 pm</td>
+        <td>
+          Failure Reason: (Pending-Booking) Total Count of Model name In Lowercase: 28
+The following Model name are not in uppercase: Dazzling New Dzire, Dazzling New Dzire, Dazzling New Dzire, Dazzling New Dzire, Dazzling New Dzire, Dazzling New Dzire, Epic New Swift, Epic New Swift, Epic New Swift, Epic New Swift, Epic New Swift, Epic New Swift, Epic New Swift, Epic New Swift, Epic New Swift, Epic New Swift, Epic New Swift, Epic New Swift, Epic New Swift, Epic New Swift, Epic New Swift, Epic New Swift, Epic New Swift, WagonR, WagonR, WagonR, WagonR, WagonR
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:29 pm</td>
+        <td>
+          Execution Time: 0 min 2 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="17"
+          author=""
+          tag="UAT_SIP2.Pending_Booking_Sorting"
+          device="">
+          <div class="test-detail">
+            <p class="name">Varient_Sorting</p>
+            <p class="text-sm">
+              <span>5:00:29 pm</span> / <span>00:00:02:518</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Varient_Sorting</h5>
+<span class='badge badge-success'>04.01.2025 5:00:29 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:32 pm</span>
+<span class='badge badge-default'>00:00:02:518</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=17</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Pending_Booking_Sorting</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:00:32 pm</td>
+        <td>
+          Varient_Sorting - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:00:32 pm</td>
+        <td>
+          Failure Reason: Sorting failed (Pending-Booking) in Varient: Lists differ at element [0]: MARUTI ALTO K10 LXI 1L 5MT != MARUTI EECO 5 STR AC (O) CNG 1.2L 5MT expected [MARUTI ALTO K10 LXI 1L 5MT] but found [MARUTI EECO 5 STR AC (O) CNG 1.2L 5MT]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:32 pm</td>
+        <td>
+          Execution Time: 0 min 2 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="18"
+          author=""
+          tag="UAT_SIP2.Pending_Booking_Sorting"
+          device="">
+          <div class="test-detail">
+            <p class="name">Colour_Sorting</p>
+            <p class="text-sm">
+              <span>5:00:32 pm</span> / <span>00:00:02:500</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Colour_Sorting</h5>
+<span class='badge badge-success'>04.01.2025 5:00:32 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:34 pm</span>
+<span class='badge badge-default'>00:00:02:500</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=18</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Pending_Booking_Sorting</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:00:34 pm</td>
+        <td>
+          Colour_Sorting TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:34 pm</td>
+        <td>
+          Execution Time: 0 min 2 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="19"
+          author=""
+          tag="UAT_SIP2.Pending_Booking_Sorting"
+          device="">
+          <div class="test-detail">
+            <p class="name">Booking_ID_Sorting</p>
+            <p class="text-sm">
+              <span>5:00:34 pm</span> / <span>00:00:02:574</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Booking_ID_Sorting</h5>
+<span class='badge badge-success'>04.01.2025 5:00:34 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:37 pm</span>
+<span class='badge badge-default'>00:00:02:574</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=19</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Pending_Booking_Sorting</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:00:37 pm</td>
+        <td>
+          Booking_ID_Sorting TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:37 pm</td>
+        <td>
+          Execution Time: 0 min 2 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="20"
+          author=""
+          tag="UAT_SIP2.Cancelled_Booking_Sorting"
+          device="">
+          <div class="test-detail">
+            <p class="name">Click_On_Cancelled_Booking</p>
+            <p class="text-sm">
+              <span>5:00:37 pm</span> / <span>00:00:02:102</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Click_On_Cancelled_Booking</h5>
+<span class='badge badge-success'>04.01.2025 5:00:37 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:39 pm</span>
+<span class='badge badge-default'>00:00:02:102</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=20</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Cancelled_Booking_Sorting</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:00:39 pm</td>
+        <td>
+          Click_On_Cancelled_Booking TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:39 pm</td>
+        <td>
+          Execution Time: 0 min 2 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="21"
+          author=""
+          tag="UAT_SIP2.Cancelled_Booking_Sorting"
+          device="">
+          <div class="test-detail">
+            <p class="name">Click_On_Items_Per_Page</p>
+            <p class="text-sm">
+              <span>5:00:39 pm</span> / <span>00:00:00:087</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Click_On_Items_Per_Page</h5>
+<span class='badge badge-success'>04.01.2025 5:00:39 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:39 pm</span>
+<span class='badge badge-default'>00:00:00:087</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=21</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Cancelled_Booking_Sorting</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:00:39 pm</td>
+        <td>
+          Click_On_Items_Per_Page TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:39 pm</td>
+        <td>
+          Execution Time: 0 min 0 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="22"
+          author=""
+          tag="UAT_SIP2.Cancelled_Booking_Sorting"
+          device="">
+          <div class="test-detail">
+            <p class="name">Sale_Executive_Name_Sorting</p>
+            <p class="text-sm">
+              <span>5:00:39 pm</span> / <span>00:00:02:231</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Sale_Executive_Name_Sorting</h5>
+<span class='badge badge-success'>04.01.2025 5:00:39 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:41 pm</span>
+<span class='badge badge-default'>00:00:02:231</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=22</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Cancelled_Booking_Sorting</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:00:41 pm</td>
+        <td>
+          Sale_Executive_Name_Sorting - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:00:41 pm</td>
+        <td>
+          Failure Reason: (Cancelled-Booking) Total Count of Sales Executive Name In Lowercase: 4
+The following Sales Executive Name are not in uppercase: Manish Sharma, Rakesh Kumawat, Rakesh Kumawat, Zaid Qureshi
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:41 pm</td>
+        <td>
+          Execution Time: 0 min 2 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="23"
+          author=""
+          tag="UAT_SIP2.Cancelled_Booking_Sorting"
+          device="">
+          <div class="test-detail">
+            <p class="name">Cutomer_Name_Sorting</p>
+            <p class="text-sm">
+              <span>5:00:41 pm</span> / <span>00:00:02:193</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Cutomer_Name_Sorting</h5>
+<span class='badge badge-success'>04.01.2025 5:00:41 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:43 pm</span>
+<span class='badge badge-default'>00:00:02:193</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=23</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Cancelled_Booking_Sorting</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:00:43 pm</td>
+        <td>
+          Cutomer_Name_Sorting TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:43 pm</td>
+        <td>
+          Execution Time: 0 min 2 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="24"
+          author=""
+          tag="UAT_SIP2.Cancelled_Booking_Sorting"
+          device="">
+          <div class="test-detail">
+            <p class="name">verify_Booking_Date_Sorting</p>
+            <p class="text-sm">
+              <span>5:00:43 pm</span> / <span>00:00:01:315</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">verify_Booking_Date_Sorting</h5>
+<span class='badge badge-success'>04.01.2025 5:00:43 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:45 pm</span>
+<span class='badge badge-default'>00:00:01:315</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=24</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Cancelled_Booking_Sorting</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:00:45 pm</td>
+        <td>
+          verify_Booking_Date_Sorting TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:45 pm</td>
+        <td>
+          Execution Time: 0 min 1 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="25"
+          author=""
+          tag="UAT_SIP2.Cancelled_Booking_Sorting"
+          device="">
+          <div class="test-detail">
+            <p class="name">Model_Name_Sorting</p>
+            <p class="text-sm">
+              <span>5:00:45 pm</span> / <span>00:00:02:192</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Model_Name_Sorting</h5>
+<span class='badge badge-success'>04.01.2025 5:00:45 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:47 pm</span>
+<span class='badge badge-default'>00:00:02:192</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Cancelled_Booking_Sorting</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:00:47 pm</td>
+        <td>
+          Model_Name_Sorting - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:00:47 pm</td>
+        <td>
+          Failure Reason: (Cancelled-Booking) Total Count of Model name In Lowercase: 7
+The following Model name are not in uppercase: Dazzling New Dzire, Epic New Swift, Epic New Swift, Epic New Swift, Epic New Swift, Epic New Swift, Epic New Swift
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:47 pm</td>
+        <td>
+          Execution Time: 0 min 2 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="26"
+          author=""
+          tag="UAT_SIP2.Cancelled_Booking_Sorting"
+          device="">
+          <div class="test-detail">
+            <p class="name">Varient_Sorting</p>
+            <p class="text-sm">
+              <span>5:00:47 pm</span> / <span>00:00:02:207</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Varient_Sorting</h5>
+<span class='badge badge-success'>04.01.2025 5:00:47 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:49 pm</span>
+<span class='badge badge-default'>00:00:02:207</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=26</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Cancelled_Booking_Sorting</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:00:49 pm</td>
+        <td>
+          Varient_Sorting - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:00:49 pm</td>
+        <td>
+          Failure Reason: Sorting failed (Cancelled-Booking) in Varient: Lists differ at element [0]: MARUTI ALTO K10 VXI+ (O) 1L 5MT != MARUTI SWIFT ZXI+ expected [MARUTI ALTO K10 VXI+ (O) 1L 5MT] but found [MARUTI SWIFT ZXI+]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:49 pm</td>
+        <td>
+          Execution Time: 0 min 2 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="27"
+          author=""
+          tag="UAT_SIP2.Cancelled_Booking_Sorting"
+          device="">
+          <div class="test-detail">
+            <p class="name">Colour_Sorting</p>
+            <p class="text-sm">
+              <span>5:00:49 pm</span> / <span>00:00:02:143</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Colour_Sorting</h5>
+<span class='badge badge-success'>04.01.2025 5:00:49 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:51 pm</span>
+<span class='badge badge-default'>00:00:02:143</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=27</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Cancelled_Booking_Sorting</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:00:51 pm</td>
+        <td>
+          Colour_Sorting TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:51 pm</td>
+        <td>
+          Execution Time: 0 min 2 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="28"
+          author=""
+          tag="UAT_SIP2.Cancelled_Booking_Sorting"
+          device="">
+          <div class="test-detail">
+            <p class="name">Booking_ID_Sorting</p>
+            <p class="text-sm">
+              <span>5:00:51 pm</span> / <span>00:00:02:121</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Booking_ID_Sorting</h5>
+<span class='badge badge-success'>04.01.2025 5:00:51 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:53 pm</span>
+<span class='badge badge-default'>00:00:02:121</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=28</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Cancelled_Booking_Sorting</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:00:53 pm</td>
+        <td>
+          Booking_ID_Sorting TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:53 pm</td>
+        <td>
+          Execution Time: 0 min 2 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="29"
+          author=""
+          tag="UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date"
+          device="">
+          <div class="test-detail">
+            <p class="name">Click_On_Pending_Booking</p>
+            <p class="text-sm">
+              <span>5:00:53 pm</span> / <span>00:00:02:034</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Click_On_Pending_Booking</h5>
+<span class='badge badge-success'>04.01.2025 5:00:53 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:55 pm</span>
+<span class='badge badge-default'>00:00:02:034</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=29</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:00:55 pm</td>
+        <td>
+          Click_On_Pending_Booking TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:55 pm</td>
+        <td>
+          Execution Time: 0 min 2 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="30"
+          author=""
+          tag="UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date"
+          device="">
+          <div class="test-detail">
+            <p class="name">Booking_Id</p>
+            <p class="text-sm">
+              <span>5:00:55 pm</span> / <span>00:00:03:028</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Booking_Id</h5>
+<span class='badge badge-success'>04.01.2025 5:00:55 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:00:58 pm</span>
+<span class='badge badge-default'>00:00:03:028</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=30</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:00:58 pm</td>
+        <td>
+          Booking_Id TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:00:58 pm</td>
+        <td>
+          Execution Time: 0 min 3 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="31"
+          author=""
+          tag="UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date"
+          device="">
+          <div class="test-detail">
+            <p class="name">Click_Customer</p>
+            <p class="text-sm">
+              <span>5:00:58 pm</span> / <span>00:00:02:593</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Click_Customer</h5>
+<span class='badge badge-success'>04.01.2025 5:00:58 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:01:01 pm</span>
+<span class='badge badge-default'>00:00:02:593</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=31</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:01:01 pm</td>
+        <td>
+          Click_Customer TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:01:01 pm</td>
+        <td>
+          Execution Time: 0 min 2 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="32"
+          author=""
+          tag="UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date"
+          device="">
+          <div class="test-detail">
+            <p class="name">Booking_NO</p>
+            <p class="text-sm">
+              <span>5:01:01 pm</span> / <span>00:00:00:022</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Booking_NO</h5>
+<span class='badge badge-success'>04.01.2025 5:01:01 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:01:01 pm</span>
+<span class='badge badge-default'>00:00:00:022</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=32</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:01:01 pm</td>
+        <td>
+          Booking_NO TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:01:01 pm</td>
+        <td>
+          Execution Time: 0 min 0 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="33"
+          author=""
+          tag="UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date"
+          device="">
+          <div class="test-detail">
+            <p class="name">Tentative_Waiting_Period_Difference</p>
+            <p class="text-sm">
+              <span>5:01:01 pm</span> / <span>00:00:03:094</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Tentative_Waiting_Period_Difference</h5>
+<span class='badge badge-success'>04.01.2025 5:01:01 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:01:04 pm</span>
+<span class='badge badge-default'>00:00:03:094</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=33</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:01:04 pm</td>
+        <td>
+          Tentative_Waiting_Period_Difference - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:01:04 pm</td>
+        <td>
+          Failure Reason: (Pending Booking)Tentative Delivery Date does not match the expected difference! expected [-69] but found [5]
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:01:04 pm</td>
+        <td>
+          Execution Time: 0 min 3 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="34"
+          author=""
+          tag="UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date"
+          device="">
+          <div class="test-detail">
+            <p class="name">Edit_Final_Delivery_Date</p>
+            <p class="text-sm">
+              <span>5:01:04 pm</span> / <span>00:00:11:328</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Edit_Final_Delivery_Date</h5>
+<span class='badge badge-success'>04.01.2025 5:01:04 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:01:15 pm</span>
+<span class='badge badge-default'>00:00:11:328</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=34</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:01:15 pm</td>
+        <td>
+          Edit_Final_Delivery_Date TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:01:15 pm</td>
+        <td>
+          Execution Time: 0 min 11 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="35"
+          author=""
+          tag="UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_Booking_ID</p>
+            <p class="text-sm">
+              <span>5:01:15 pm</span> / <span>00:00:00:001</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify_Booking_ID</h5>
+<span class='badge badge-success'>04.01.2025 5:01:15 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:01:15 pm</span>
+<span class='badge badge-default'>00:00:00:001</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=35</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:01:15 pm</td>
+        <td>
+          Verify_Booking_ID TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:01:15 pm</td>
+        <td>
+          Execution Time: 0 min 0 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="36"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">Product_Query_Flow</p>
+            <p class="text-sm">
+              <span>5:01:15 pm</span> / <span>00:00:10:157</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Product_Query_Flow</h5>
+<span class='badge badge-success'>04.01.2025 5:01:15 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:01:25 pm</span>
+<span class='badge badge-default'>00:00:10:157</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=36</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:01:25 pm</td>
+        <td>
+          Product_Query_Flow TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:01:25 pm</td>
+        <td>
+          Execution Time: 0 min 10 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="37"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validate_Product_Query</p>
+            <p class="text-sm">
+              <span>5:01:25 pm</span> / <span>00:00:01:513</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validate_Product_Query</h5>
+<span class='badge badge-success'>04.01.2025 5:01:25 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:01:27 pm</span>
+<span class='badge badge-default'>00:00:01:513</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=37</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:01:27 pm</td>
+        <td>
+          Validate_Product_Query TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:01:27 pm</td>
+        <td>
+          Execution Time: 0 min 1 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="38"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">Payment_Query_Flow</p>
+            <p class="text-sm">
+              <span>5:01:27 pm</span> / <span>00:00:10:126</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Payment_Query_Flow</h5>
+<span class='badge badge-success'>04.01.2025 5:01:27 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:01:37 pm</span>
+<span class='badge badge-default'>00:00:10:126</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=38</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:01:37 pm</td>
+        <td>
+          Payment_Query_Flow TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:01:37 pm</td>
+        <td>
+          Execution Time: 0 min 10 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="39"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validate_Payment_Query</p>
+            <p class="text-sm">
+              <span>5:01:37 pm</span> / <span>00:00:01:527</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validate_Payment_Query</h5>
+<span class='badge badge-success'>04.01.2025 5:01:37 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:01:39 pm</span>
+<span class='badge badge-default'>00:00:01:527</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=39</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:01:39 pm</td>
+        <td>
+          Validate_Payment_Query TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:01:39 pm</td>
+        <td>
+          Execution Time: 0 min 1 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="40"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">Extended_Warranty_Payment_Query</p>
+            <p class="text-sm">
+              <span>5:01:39 pm</span> / <span>00:00:01:509</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Extended_Warranty_Payment_Query</h5>
+<span class='badge badge-success'>04.01.2025 5:01:39 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:01:40 pm</span>
+<span class='badge badge-default'>00:00:01:509</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=40</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:01:40 pm</td>
+        <td>
+          Extended_Warranty_Payment_Query TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:01:40 pm</td>
+        <td>
+          Execution Time: 0 min 1 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="41"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">Extended_Warranty_Query_Flow</p>
+            <p class="text-sm">
+              <span>5:01:40 pm</span> / <span>00:00:10:256</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Extended_Warranty_Query_Flow</h5>
+<span class='badge badge-success'>04.01.2025 5:01:40 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:01:50 pm</span>
+<span class='badge badge-default'>00:00:10:256</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=41</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:01:50 pm</td>
+        <td>
+          Extended_Warranty_Query_Flow TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:01:50 pm</td>
+        <td>
+          Execution Time: 0 min 10 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="42"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">Maruti_Insurance_Query_Flow</p>
+            <p class="text-sm">
+              <span>5:01:50 pm</span> / <span>00:00:10:187</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Maruti_Insurance_Query_Flow</h5>
+<span class='badge badge-success'>04.01.2025 5:01:50 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:02:01 pm</span>
+<span class='badge badge-default'>00:00:10:187</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=42</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:02:01 pm</td>
+        <td>
+          Maruti_Insurance_Query_Flow TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:02:01 pm</td>
+        <td>
+          Execution Time: 0 min 10 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="43"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">Maruti_Insurance_Query</p>
+            <p class="text-sm">
+              <span>5:02:01 pm</span> / <span>00:00:01:515</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Maruti_Insurance_Query</h5>
+<span class='badge badge-success'>04.01.2025 5:02:01 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:02:02 pm</span>
+<span class='badge badge-default'>00:00:01:515</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=43</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:02:02 pm</td>
+        <td>
+          Maruti_Insurance_Query TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:02:02 pm</td>
+        <td>
+          Execution Time: 0 min 1 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="44"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">Loyalty_Card_Query_Flow</p>
+            <p class="text-sm">
+              <span>5:02:02 pm</span> / <span>00:00:10:008</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Loyalty_Card_Query_Flow</h5>
+<span class='badge badge-success'>04.01.2025 5:02:02 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:02:12 pm</span>
+<span class='badge badge-default'>00:00:10:008</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=44</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:02:12 pm</td>
+        <td>
+          Loyalty_Card_Query_Flow TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:02:12 pm</td>
+        <td>
+          Execution Time: 0 min 10 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="45"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">Loyalty_Card_Query</p>
+            <p class="text-sm">
+              <span>5:02:12 pm</span> / <span>00:00:01:519</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Loyalty_Card_Query</h5>
+<span class='badge badge-success'>04.01.2025 5:02:12 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:02:14 pm</span>
+<span class='badge badge-default'>00:00:01:519</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=45</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:02:14 pm</td>
+        <td>
+          Loyalty_Card_Query TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:02:14 pm</td>
+        <td>
+          Execution Time: 0 min 1 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="46"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">True_Value_Query_Flow</p>
+            <p class="text-sm">
+              <span>5:02:14 pm</span> / <span>00:00:10:090</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">True_Value_Query_Flow</h5>
+<span class='badge badge-success'>04.01.2025 5:02:14 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:02:24 pm</span>
+<span class='badge badge-default'>00:00:10:090</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=46</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:02:24 pm</td>
+        <td>
+          True_Value_Query_Flow TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:02:24 pm</td>
+        <td>
+          Execution Time: 0 min 10 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="47"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">True_Value_Query</p>
+            <p class="text-sm">
+              <span>5:02:24 pm</span> / <span>00:00:01:505</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">True_Value_Query</h5>
+<span class='badge badge-success'>04.01.2025 5:02:24 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:02:25 pm</span>
+<span class='badge badge-default'>00:00:01:505</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=47</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:02:25 pm</td>
+        <td>
+          True_Value_Query TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:02:25 pm</td>
+        <td>
+          Execution Time: 0 min 1 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="48"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">Delivery_Query_Flow</p>
+            <p class="text-sm">
+              <span>5:02:25 pm</span> / <span>00:00:10:065</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Delivery_Query_Flow</h5>
+<span class='badge badge-success'>04.01.2025 5:02:25 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:02:35 pm</span>
+<span class='badge badge-default'>00:00:10:065</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=48</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:02:35 pm</td>
+        <td>
+          Delivery_Query_Flow TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:02:35 pm</td>
+        <td>
+          Execution Time: 0 min 10 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="49"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">Delivery_Query</p>
+            <p class="text-sm">
+              <span>5:02:35 pm</span> / <span>00:00:01:506</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Delivery_Query</h5>
+<span class='badge badge-success'>04.01.2025 5:02:35 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:02:37 pm</span>
+<span class='badge badge-default'>00:00:01:506</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=49</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:02:37 pm</td>
+        <td>
+          Delivery_Query TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:02:37 pm</td>
+        <td>
+          Execution Time: 0 min 1 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="50"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">MSGA_Flow</p>
+            <p class="text-sm">
+              <span>5:02:37 pm</span> / <span>00:00:10:024</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">MSGA_Flow</h5>
+<span class='badge badge-success'>04.01.2025 5:02:37 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:02:47 pm</span>
+<span class='badge badge-default'>00:00:10:024</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=50</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:02:47 pm</td>
+        <td>
+          MSGA_Flow TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:02:47 pm</td>
+        <td>
+          Execution Time: 0 min 10 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="51"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">MSGA_Query</p>
+            <p class="text-sm">
+              <span>5:02:47 pm</span> / <span>00:00:01:521</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">MSGA_Query</h5>
+<span class='badge badge-success'>04.01.2025 5:02:47 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:02:48 pm</span>
+<span class='badge badge-default'>00:00:01:521</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=51</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:02:48 pm</td>
+        <td>
+          MSGA_Query TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:02:48 pm</td>
+        <td>
+          Execution Time: 0 min 1 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="52"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">Booking_Amendment_Flow</p>
+            <p class="text-sm">
+              <span>5:02:48 pm</span> / <span>00:00:10:062</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Booking_Amendment_Flow</h5>
+<span class='badge badge-success'>04.01.2025 5:02:48 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:02:58 pm</span>
+<span class='badge badge-default'>00:00:10:062</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=52</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:02:58 pm</td>
+        <td>
+          Booking_Amendment_Flow TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:02:58 pm</td>
+        <td>
+          Execution Time: 0 min 10 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="53"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">Booking_Amendment_Query</p>
+            <p class="text-sm">
+              <span>5:02:58 pm</span> / <span>00:00:01:522</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Booking_Amendment_Query</h5>
+<span class='badge badge-success'>04.01.2025 5:02:58 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:00 pm</span>
+<span class='badge badge-default'>00:00:01:522</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=53</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:03:00 pm</td>
+        <td>
+          Booking_Amendment_Query TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:00 pm</td>
+        <td>
+          Execution Time: 0 min 1 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="54"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">Others_Flow</p>
+            <p class="text-sm">
+              <span>5:03:00 pm</span> / <span>00:00:10:053</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Others_Flow</h5>
+<span class='badge badge-success'>04.01.2025 5:03:00 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:10 pm</span>
+<span class='badge badge-default'>00:00:10:053</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=54</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:03:10 pm</td>
+        <td>
+          Others_Flow TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:10 pm</td>
+        <td>
+          Execution Time: 0 min 10 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="55"
+          author=""
+          tag="UAT_SIP2.Customer_Query"
+          device="">
+          <div class="test-detail">
+            <p class="name">Others_Query</p>
+            <p class="text-sm">
+              <span>5:03:10 pm</span> / <span>00:00:01:529</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Others_Query</h5>
+<span class='badge badge-success'>04.01.2025 5:03:10 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:11 pm</span>
+<span class='badge badge-default'>00:00:01:529</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=55</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Query</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:03:11 pm</td>
+        <td>
+          Others_Query TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:11 pm</td>
+        <td>
+          Execution Time: 0 min 1 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="56"
+          author=""
+          tag="UAT_SIP2.Customer_Tag"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_VIP</p>
+            <p class="text-sm">
+              <span>5:03:11 pm</span> / <span>00:00:04:286</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify_VIP</h5>
+<span class='badge badge-success'>04.01.2025 5:03:11 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:16 pm</span>
+<span class='badge badge-default'>00:00:04:286</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=56</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Tag</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:03:16 pm</td>
+        <td>
+          Verify_VIP TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:16 pm</td>
+        <td>
+          Execution Time: 0 min 4 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="57"
+          author=""
+          tag="UAT_SIP2.Customer_Tag"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_Marriage</p>
+            <p class="text-sm">
+              <span>5:03:16 pm</span> / <span>00:00:04:253</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify_Marriage</h5>
+<span class='badge badge-success'>04.01.2025 5:03:16 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:20 pm</span>
+<span class='badge badge-default'>00:00:04:253</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=57</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Tag</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:03:20 pm</td>
+        <td>
+          Verify_Marriage TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:20 pm</td>
+        <td>
+          Execution Time: 0 min 4 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="58"
+          author=""
+          tag="UAT_SIP2.Customer_Tag"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_Birthday</p>
+            <p class="text-sm">
+              <span>5:03:20 pm</span> / <span>00:00:03:732</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify_Birthday</h5>
+<span class='badge badge-success'>04.01.2025 5:03:20 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:24 pm</span>
+<span class='badge badge-default'>00:00:03:732</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=58</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Tag</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:03:24 pm</td>
+        <td>
+          Verify_Birthday TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:24 pm</td>
+        <td>
+          Execution Time: 0 min 3 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="59"
+          author=""
+          tag="UAT_SIP2.Customer_Tag"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_Anniversary</p>
+            <p class="text-sm">
+              <span>5:03:24 pm</span> / <span>00:00:04:258</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify_Anniversary</h5>
+<span class='badge badge-success'>04.01.2025 5:03:24 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:28 pm</span>
+<span class='badge badge-default'>00:00:04:258</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=59</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Tag</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:03:28 pm</td>
+        <td>
+          Verify_Anniversary TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:28 pm</td>
+        <td>
+          Execution Time: 0 min 4 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="60"
+          author=""
+          tag="UAT_SIP2.Customer_Tag"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_Other</p>
+            <p class="text-sm">
+              <span>5:03:28 pm</span> / <span>00:00:02:751</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify_Other</h5>
+<span class='badge badge-success'>04.01.2025 5:03:28 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:31 pm</span>
+<span class='badge badge-default'>00:00:02:751</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=60</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Customer_Tag</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:03:31 pm</td>
+        <td>
+          Verify_Other TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:31 pm</td>
+        <td>
+          Execution Time: 0 min 2 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="61"
+          author=""
+          tag="UAT_SIP2.Check_On_Road_Price"
+          device="">
+          <div class="test-detail">
+            <p class="name">Click_ChecK_On_ROAD_Price</p>
+            <p class="text-sm">
+              <span>5:03:31 pm</span> / <span>00:00:00:648</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Click_ChecK_On_ROAD_Price</h5>
+<span class='badge badge-success'>04.01.2025 5:03:31 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:31 pm</span>
+<span class='badge badge-default'>00:00:00:648</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=61</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Check_On_Road_Price</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:03:31 pm</td>
+        <td>
+          Click_ChecK_On_ROAD_Price TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:31 pm</td>
+        <td>
+          Execution Time: 0 min 0 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="62"
+          author=""
+          tag="UAT_SIP2.Check_On_Road_Price"
+          device="">
+          <div class="test-detail">
+            <p class="name">All_Details_Of_OnRoad_Price</p>
+            <p class="text-sm">
+              <span>5:03:31 pm</span> / <span>00:00:01:216</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">All_Details_Of_OnRoad_Price</h5>
+<span class='badge badge-success'>04.01.2025 5:03:31 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:33 pm</span>
+<span class='badge badge-default'>00:00:01:216</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=62</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Check_On_Road_Price</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:03:33 pm</td>
+        <td>
+          All_Details_Of_OnRoad_Price - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:03:33 pm</td>
+        <td>
+          Failure Reason: TEST FAILED : Check On road PRICE Details is null on Customer Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:33 pm</td>
+        <td>
+          Execution Time: 0 min 1 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="63"
+          author=""
+          tag="UAT_SIP2.Check_On_Road_Price"
+          device="">
+          <div class="test-detail">
+            <p class="name">All_Vehicle_Details</p>
+            <p class="text-sm">
+              <span>5:03:33 pm</span> / <span>00:00:00:047</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">All_Vehicle_Details</h5>
+<span class='badge badge-success'>04.01.2025 5:03:33 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:33 pm</span>
+<span class='badge badge-default'>00:00:00:047</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=63</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Check_On_Road_Price</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:03:33 pm</td>
+        <td>
+          All_Vehicle_Details TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:33 pm</td>
+        <td>
+          Execution Time: 0 min 0 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="64"
+          author=""
+          tag="UAT_SIP2.Check_On_Road_Price"
+          device="">
+          <div class="test-detail">
+            <p class="name">All_PRICE_Details</p>
+            <p class="text-sm">
+              <span>5:03:33 pm</span> / <span>00:00:06:622</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">All_PRICE_Details</h5>
+<span class='badge badge-success'>04.01.2025 5:03:33 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:39 pm</span>
+<span class='badge badge-default'>00:00:06:622</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=64</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Check_On_Road_Price</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:03:39 pm</td>
+        <td>
+          All_PRICE_Details - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:03:39 pm</td>
+        <td>
+          Failure Reason: TEST FAILED : PRICE Details is null on Customer Page
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:39 pm</td>
+        <td>
+          Execution Time: 0 min 6 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="65"
+          author=""
+          tag="UAT_SIP2.Check_On_Road_Price"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validate_Vehicle_Details_with_Check_On_Road_PriceTAB</p>
+            <p class="text-sm">
+              <span>5:03:39 pm</span> / <span>00:00:00:002</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Validate_Vehicle_Details_with_Check_On_Road_PriceTAB</h5>
+<span class='badge badge-success'>04.01.2025 5:03:39 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:39 pm</span>
+<span class='badge badge-default'>00:00:00:002</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=65</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Check_On_Road_Price</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:03:39 pm</td>
+        <td>
+          Validate_Vehicle_Details_with_Check_On_Road_PriceTAB TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:39 pm</td>
+        <td>
+          Execution Time: 0 min 0 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="66"
+          author=""
+          tag="UAT_SIP2.Check_On_Road_Price"
+          device="">
+          <div class="test-detail">
+            <p class="name">Validate_Check_On_Road_Price_With_PRICE_DETAILS</p>
+            <p class="text-sm">
+              <span>5:03:39 pm</span> / <span>00:00:00:002</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Validate_Check_On_Road_Price_With_PRICE_DETAILS</h5>
+<span class='badge badge-success'>04.01.2025 5:03:39 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:39 pm</span>
+<span class='badge badge-default'>00:00:00:002</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=66</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Check_On_Road_Price</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:03:39 pm</td>
+        <td>
+          Validate_Check_On_Road_Price_With_PRICE_DETAILS - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:03:39 pm</td>
+        <td>
+          Failure Reason: Cannot invoke "String.equals(Object)" because "this.EX_Showroom_Price" is null
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:39 pm</td>
+        <td>
+          Execution Time: 0 min 0 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="67"
+          author=""
+          tag="UAT_SIP2.SVOC"
+          device="">
+          <div class="test-detail">
+            <p class="name">Customer_Name</p>
+            <p class="text-sm">
+              <span>5:03:39 pm</span> / <span>00:00:00:033</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Customer_Name</h5>
+<span class='badge badge-success'>04.01.2025 5:03:39 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:39 pm</span>
+<span class='badge badge-default'>00:00:00:033</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=67</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.SVOC</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:03:39 pm</td>
+        <td>
+          Customer_Name TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:39 pm</td>
+        <td>
+          Execution Time: 0 min 0 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="68"
+          author=""
+          tag="UAT_SIP2.SVOC"
+          device="">
+          <div class="test-detail">
+            <p class="name">SVOC_Customer_Name</p>
+            <p class="text-sm">
+              <span>5:03:39 pm</span> / <span>00:00:01:056</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">SVOC_Customer_Name</h5>
+<span class='badge badge-success'>04.01.2025 5:03:39 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:40 pm</span>
+<span class='badge badge-default'>00:00:01:056</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=68</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.SVOC</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:03:40 pm</td>
+        <td>
+          SVOC_Customer_Name - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:03:40 pm</td>
+        <td>
+          Failure Reason: Test FAILED  :: In (Pending Booking),Customer Name is not showing in SVOC  ::
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:40 pm</td>
+        <td>
+          Execution Time: 0 min 1 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="69"
+          author=""
+          tag="UAT_SIP2.SVOC"
+          device="">
+          <div class="test-detail">
+            <p class="name">Booking_NO</p>
+            <p class="text-sm">
+              <span>5:03:40 pm</span> / <span>00:00:00:033</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Booking_NO</h5>
+<span class='badge badge-success'>04.01.2025 5:03:40 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:40 pm</span>
+<span class='badge badge-default'>00:00:00:033</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=69</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.SVOC</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:03:40 pm</td>
+        <td>
+          Booking_NO TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:40 pm</td>
+        <td>
+          Execution Time: 0 min 0 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="70"
+          author=""
+          tag="UAT_SIP2.Check_Offer"
+          device="">
+          <div class="test-detail">
+            <p class="name">Vehicle_Details</p>
+            <p class="text-sm">
+              <span>5:03:40 pm</span> / <span>00:00:00:026</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Vehicle_Details</h5>
+<span class='badge badge-success'>04.01.2025 5:03:40 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:40 pm</span>
+<span class='badge badge-default'>00:00:00:026</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=70</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Check_Offer</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:03:40 pm</td>
+        <td>
+          Vehicle_Details TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:40 pm</td>
+        <td>
+          Execution Time: 0 min 0 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="71"
+          author=""
+          tag="UAT_SIP2.Check_Offer"
+          device="">
+          <div class="test-detail">
+            <p class="name">CHECK_Offer_TAB</p>
+            <p class="text-sm">
+              <span>5:03:40 pm</span> / <span>00:00:01:044</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">CHECK_Offer_TAB</h5>
+<span class='badge badge-success'>04.01.2025 5:03:40 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:42 pm</span>
+<span class='badge badge-default'>00:00:01:044</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=71</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Check_Offer</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:03:42 pm</td>
+        <td>
+          CHECK_Offer_TAB - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:03:42 pm</td>
+        <td>
+          Failure Reason: TEST FAILLED :: Model/Varient is not  is not showing in Check offer TAB 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:42 pm</td>
+        <td>
+          Execution Time: 0 min 1 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="72"
+          author=""
+          tag="UAT_SIP2.Check_Offer"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_Check_Offer_TAB</p>
+            <p class="text-sm">
+              <span>5:03:42 pm</span> / <span>00:00:00:002</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify_Check_Offer_TAB</h5>
+<span class='badge badge-success'>04.01.2025 5:03:42 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:42 pm</span>
+<span class='badge badge-default'>00:00:00:002</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=72</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Check_Offer</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:03:42 pm</td>
+        <td>
+          Verify_Check_Offer_TAB - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:03:42 pm</td>
+        <td>
+          Failure Reason: Model names are different in Check Offer TAB
+Model names are different in Check Offer TAB
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:42 pm</td>
+        <td>
+          Execution Time: 0 min 0 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="73"
+          author=""
+          tag="UAT_SIP2.Documentation_Reports"
+          device="">
+          <div class="test-detail">
+            <p class="name">Click_On_BackButton</p>
+            <p class="text-sm">
+              <span>5:03:42 pm</span> / <span>00:00:00:631</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Click_On_BackButton</h5>
+<span class='badge badge-success'>04.01.2025 5:03:42 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:42 pm</span>
+<span class='badge badge-default'>00:00:00:631</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=73</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Documentation_Reports</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:03:42 pm</td>
+        <td>
+          Click_On_BackButton TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:42 pm</td>
+        <td>
+          Execution Time: 0 min 0 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="74"
+          author=""
+          tag="UAT_SIP2.Documentation_Reports"
+          device="">
+          <div class="test-detail">
+            <p class="name">Click_On_Documentation_Reports</p>
+            <p class="text-sm">
+              <span>5:03:42 pm</span> / <span>00:00:12:850</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Click_On_Documentation_Reports</h5>
+<span class='badge badge-success'>04.01.2025 5:03:42 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:03:55 pm</span>
+<span class='badge badge-default'>00:00:12:850</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=74</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Documentation_Reports</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:03:55 pm</td>
+        <td>
+          Click_On_Documentation_Reports - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:03:55 pm</td>
+        <td>
+          Failure Reason: TEST FAILED :: 
+ Documentation Reports data is not showing 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:03:55 pm</td>
+        <td>
+          Execution Time: 0 min 12 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="75"
+          author=""
+          tag="UAT_SIP2.Documentation_Reports"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_DealerOutlet_TV01</p>
+            <p class="text-sm">
+              <span>5:03:55 pm</span> / <span>00:00:14:133</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify_DealerOutlet_TV01</h5>
+<span class='badge badge-success'>04.01.2025 5:03:55 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:04:09 pm</span>
+<span class='badge badge-default'>00:00:14:133</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=75</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Documentation_Reports</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:04:09 pm</td>
+        <td>
+          Verify_DealerOutlet_TV01 - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:04:09 pm</td>
+        <td>
+          Failure Reason: No data found for TV01 ,TEST Failed 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:04:09 pm</td>
+        <td>
+          Execution Time: 0 min 14 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="76"
+          author=""
+          tag="UAT_SIP2.Documentation_Reports"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_DealerOutlet_BZC1</p>
+            <p class="text-sm">
+              <span>5:04:09 pm</span> / <span>00:00:13:938</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify_DealerOutlet_BZC1</h5>
+<span class='badge badge-success'>04.01.2025 5:04:09 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:04:23 pm</span>
+<span class='badge badge-default'>00:00:13:938</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=76</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Documentation_Reports</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:04:23 pm</td>
+        <td>
+          Verify_DealerOutlet_BZC1 - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:04:23 pm</td>
+        <td>
+          Failure Reason: No data found for BZC1 ,TEST Failed 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:04:23 pm</td>
+        <td>
+          Execution Time: 0 min 13 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="77"
+          author=""
+          tag="UAT_SIP2.Documentation_Reports"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_DealerOutlet_BZD1</p>
+            <p class="text-sm">
+              <span>5:04:23 pm</span> / <span>00:00:13:970</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify_DealerOutlet_BZD1</h5>
+<span class='badge badge-success'>04.01.2025 5:04:23 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:04:37 pm</span>
+<span class='badge badge-default'>00:00:13:970</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=77</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Documentation_Reports</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:04:37 pm</td>
+        <td>
+          Verify_DealerOutlet_BZD1 - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:04:37 pm</td>
+        <td>
+          Failure Reason: No data found for BZD1,TEST Failed 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:04:37 pm</td>
+        <td>
+          Execution Time: 0 min 13 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="78"
+          author=""
+          tag="UAT_SIP2.Documentation_Reports"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_DealerOutlet_CTQ1</p>
+            <p class="text-sm">
+              <span>5:04:37 pm</span> / <span>00:00:14:005</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify_DealerOutlet_CTQ1</h5>
+<span class='badge badge-success'>04.01.2025 5:04:37 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:04:51 pm</span>
+<span class='badge badge-default'>00:00:14:005</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=78</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Documentation_Reports</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:04:51 pm</td>
+        <td>
+          Verify_DealerOutlet_CTQ1 - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:04:51 pm</td>
+        <td>
+          Failure Reason: No data found for CTQ1 ,TEST Failed 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:04:51 pm</td>
+        <td>
+          Execution Time: 0 min 14 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="79"
+          author=""
+          tag="UAT_SIP2.Documentation_Reports"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_DealerOutlet_SGL1</p>
+            <p class="text-sm">
+              <span>5:04:51 pm</span> / <span>00:00:13:965</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify_DealerOutlet_SGL1</h5>
+<span class='badge badge-success'>04.01.2025 5:04:51 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:05:05 pm</span>
+<span class='badge badge-default'>00:00:13:965</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=79</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Documentation_Reports</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:05:05 pm</td>
+        <td>
+          Verify_DealerOutlet_SGL1 - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:05:05 pm</td>
+        <td>
+          Failure Reason: No data found for SGL1 ,TEST Failed 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:05:05 pm</td>
+        <td>
+          Execution Time: 0 min 13 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="80"
+          author=""
+          tag="UAT_SIP2.Documentation_Reports"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_DealerOutlet_K701</p>
+            <p class="text-sm">
+              <span>5:05:05 pm</span> / <span>00:00:03:978</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Verify_DealerOutlet_K701</h5>
+<span class='badge badge-success'>04.01.2025 5:05:05 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:05:09 pm</span>
+<span class='badge badge-default'>00:00:03:978</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=80</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Documentation_Reports</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>5:05:09 pm</td>
+        <td>
+          Verify_DealerOutlet_K701 TEST PASSED 🟢
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:05:09 pm</td>
+        <td>
+          Execution Time: 0 min 3 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="fail" test-id="81"
+          author=""
+          tag="UAT_SIP2.Documentation_Reports"
+          device="">
+          <div class="test-detail">
+            <p class="name">Verify_DealerOutlet_SMD1</p>
+            <p class="text-sm">
+              <span>5:05:09 pm</span> / <span>00:00:14:017</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Verify_DealerOutlet_SMD1</h5>
+<span class='badge badge-success'>04.01.2025 5:05:09 pm</span>
+<span class='badge badge-danger'>04.01.2025 5:05:23 pm</span>
+<span class='badge badge-default'>00:00:14:017</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=81</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">UAT_SIP2.Documentation_Reports</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:05:23 pm</td>
+        <td>
+          Verify_DealerOutlet_SMD1 - TEST FAILED 🔴
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log fail-bg">Fail</span></td>
+        <td>5:05:23 pm</td>
+        <td>
+          Failure Reason: No data found for SMD1,TEST Failed 
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>5:05:23 pm</td>
+        <td>
+          Execution Time: 0 min 14 sec  ⏱️
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">10</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">UAT_SIP2.Cancelled_Booking_Sorting</p>
+<p class="duration text-sm">9 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>UAT_SIP2.Cancelled_Booking_Sorting</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:00:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='20' id='20'>Click_On_Cancelled_Booking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:00:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='21' id='21'>Click_On_Items_Per_Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:00:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='22' id='22'>Sale_Executive_Name_Sorting</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:00:41 pm</td>
+<td>
+<a href="#" class="linked" test-id='23' id='23'>Cutomer_Name_Sorting</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:00:43 pm</td>
+<td>
+<a href="#" class="linked" test-id='24' id='24'>verify_Booking_Date_Sorting</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:00:45 pm</td>
+<td>
+<a href="#" class="linked" test-id='25' id='25'>Model_Name_Sorting</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:00:47 pm</td>
+<td>
+<a href="#" class="linked" test-id='26' id='26'>Varient_Sorting</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:00:49 pm</td>
+<td>
+<a href="#" class="linked" test-id='27' id='27'>Colour_Sorting</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:00:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='28' id='28'>Booking_ID_Sorting</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+<span class='badge log badge-danger'>4</span>
+</span>
+<p class="name">UAT_SIP2.Pending_Booking_Sorting</p>
+<p class="duration text-sm">8 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>UAT_SIP2.Pending_Booking_Sorting</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+<span status="fail" class='badge log badge-danger'>4 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:00:20 pm</td>
+<td>
+<a href="#" class="linked" test-id='12' id='12'>Click_On_Items_Per_Page</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:00:20 pm</td>
+<td>
+<a href="#" class="linked" test-id='13' id='13'>Sale_Executive_Name_Sorting</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:00:22 pm</td>
+<td>
+<a href="#" class="linked" test-id='14' id='14'>Cutomer_Name_Sorting</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:00:25 pm</td>
+<td>
+<a href="#" class="linked" test-id='15' id='15'>verify_Booking_Date_Sorting</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:00:26 pm</td>
+<td>
+<a href="#" class="linked" test-id='16' id='16'>Model_Name_Sorting</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:00:29 pm</td>
+<td>
+<a href="#" class="linked" test-id='17' id='17'>Varient_Sorting</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:00:32 pm</td>
+<td>
+<a href="#" class="linked" test-id='18' id='18'>Colour_Sorting</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:00:34 pm</td>
+<td>
+<a href="#" class="linked" test-id='19' id='19'>Booking_ID_Sorting</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>10</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">UAT_SIP2.Additional_Fillter</p>
+<p class="duration text-sm">11 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>UAT_SIP2.Additional_Fillter</h4>
+<span status="pass" class='badge log pass-bg'>10 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:59:07 pm</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>PopuPhandle</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:59:13 pm</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>Dealer_User_Login1</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:59:18 pm</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>Click_On_SIP</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:59:24 pm</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>Click_On_Additional_Fillter_To_Clear_Data</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:59:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>Verify_Booking_Date_Fillter</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:59:35 pm</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>Verify_MODEL_Fillter</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>16:59:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='7' id='7'>Verify_Varient_Fillter</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>16:59:58 pm</td>
+<td>
+<a href="#" class="linked" test-id='8' id='8'>Verify_Booking_Amount_Fillter</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:00:04 pm</td>
+<td>
+<a href="#" class="linked" test-id='9' id='9'>Verify_Sales_Executive_NAME_Fillter</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:00:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='10' id='10'>Verify_Tentative_DeliveryDATE_Fillter</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:00:19 pm</td>
+<td>
+<a href="#" class="linked" test-id='11' id='11'>Close_Additional_Fillter</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>5</span>
+</span>
+<p class="name">UAT_SIP2.Customer_Tag</p>
+<p class="duration text-sm">5 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>UAT_SIP2.Customer_Tag</h4>
+<span status="pass" class='badge log pass-bg'>5 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:03:11 pm</td>
+<td>
+<a href="#" class="linked" test-id='56' id='56'>Verify_VIP</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:03:16 pm</td>
+<td>
+<a href="#" class="linked" test-id='57' id='57'>Verify_Marriage</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:03:20 pm</td>
+<td>
+<a href="#" class="linked" test-id='58' id='58'>Verify_Birthday</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:03:24 pm</td>
+<td>
+<a href="#" class="linked" test-id='59' id='59'>Verify_Anniversary</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:03:28 pm</td>
+<td>
+<a href="#" class="linked" test-id='60' id='60'>Verify_Other</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">UAT_SIP2.SVOC</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>UAT_SIP2.SVOC</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:03:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='67' id='67'>Customer_Name</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:03:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='68' id='68'>SVOC_Customer_Name</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:03:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='69' id='69'>Booking_NO</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>2</span>
+<span class='badge log badge-danger'>7</span>
+</span>
+<p class="name">UAT_SIP2.Documentation_Reports</p>
+<p class="duration text-sm">9 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>UAT_SIP2.Documentation_Reports</h4>
+<span status="pass" class='badge log pass-bg'>2 passed</span>
+<span status="fail" class='badge log badge-danger'>7 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:03:42 pm</td>
+<td>
+<a href="#" class="linked" test-id='73' id='73'>Click_On_BackButton</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:03:42 pm</td>
+<td>
+<a href="#" class="linked" test-id='74' id='74'>Click_On_Documentation_Reports</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:03:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='75' id='75'>Verify_DealerOutlet_TV01</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:04:09 pm</td>
+<td>
+<a href="#" class="linked" test-id='76' id='76'>Verify_DealerOutlet_BZC1</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:04:23 pm</td>
+<td>
+<a href="#" class="linked" test-id='77' id='77'>Verify_DealerOutlet_BZD1</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:04:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='78' id='78'>Verify_DealerOutlet_CTQ1</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:04:51 pm</td>
+<td>
+<a href="#" class="linked" test-id='79' id='79'>Verify_DealerOutlet_SGL1</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:05:05 pm</td>
+<td>
+<a href="#" class="linked" test-id='80' id='80'>Verify_DealerOutlet_K701</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:05:09 pm</td>
+<td>
+<a href="#" class="linked" test-id='81' id='81'>Verify_DealerOutlet_SMD1</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>6</span>
+<span class='badge log badge-danger'>1</span>
+</span>
+<p class="name">UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date</p>
+<p class="duration text-sm">7 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date</h4>
+<span status="pass" class='badge log pass-bg'>6 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:00:53 pm</td>
+<td>
+<a href="#" class="linked" test-id='29' id='29'>Click_On_Pending_Booking</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:00:55 pm</td>
+<td>
+<a href="#" class="linked" test-id='30' id='30'>Booking_Id</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:00:58 pm</td>
+<td>
+<a href="#" class="linked" test-id='31' id='31'>Click_Customer</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:01:01 pm</td>
+<td>
+<a href="#" class="linked" test-id='32' id='32'>Booking_NO</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:01:01 pm</td>
+<td>
+<a href="#" class="linked" test-id='33' id='33'>Tentative_Waiting_Period_Difference</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:01:04 pm</td>
+<td>
+<a href="#" class="linked" test-id='34' id='34'>Edit_Final_Delivery_Date</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:01:15 pm</td>
+<td>
+<a href="#" class="linked" test-id='35' id='35'>Verify_Booking_ID</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>20</span>
+</span>
+<p class="name">UAT_SIP2.Customer_Query</p>
+<p class="duration text-sm">20 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>UAT_SIP2.Customer_Query</h4>
+<span status="pass" class='badge log pass-bg'>20 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:01:15 pm</td>
+<td>
+<a href="#" class="linked" test-id='36' id='36'>Product_Query_Flow</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:01:25 pm</td>
+<td>
+<a href="#" class="linked" test-id='37' id='37'>Validate_Product_Query</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:01:27 pm</td>
+<td>
+<a href="#" class="linked" test-id='38' id='38'>Payment_Query_Flow</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:01:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='39' id='39'>Validate_Payment_Query</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:01:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='40' id='40'>Extended_Warranty_Payment_Query</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:01:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='41' id='41'>Extended_Warranty_Query_Flow</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:01:50 pm</td>
+<td>
+<a href="#" class="linked" test-id='42' id='42'>Maruti_Insurance_Query_Flow</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:02:01 pm</td>
+<td>
+<a href="#" class="linked" test-id='43' id='43'>Maruti_Insurance_Query</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:02:02 pm</td>
+<td>
+<a href="#" class="linked" test-id='44' id='44'>Loyalty_Card_Query_Flow</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:02:12 pm</td>
+<td>
+<a href="#" class="linked" test-id='45' id='45'>Loyalty_Card_Query</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:02:14 pm</td>
+<td>
+<a href="#" class="linked" test-id='46' id='46'>True_Value_Query_Flow</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:02:24 pm</td>
+<td>
+<a href="#" class="linked" test-id='47' id='47'>True_Value_Query</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:02:25 pm</td>
+<td>
+<a href="#" class="linked" test-id='48' id='48'>Delivery_Query_Flow</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:02:35 pm</td>
+<td>
+<a href="#" class="linked" test-id='49' id='49'>Delivery_Query</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:02:37 pm</td>
+<td>
+<a href="#" class="linked" test-id='50' id='50'>MSGA_Flow</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:02:47 pm</td>
+<td>
+<a href="#" class="linked" test-id='51' id='51'>MSGA_Query</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:02:48 pm</td>
+<td>
+<a href="#" class="linked" test-id='52' id='52'>Booking_Amendment_Flow</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:02:58 pm</td>
+<td>
+<a href="#" class="linked" test-id='53' id='53'>Booking_Amendment_Query</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:03:00 pm</td>
+<td>
+<a href="#" class="linked" test-id='54' id='54'>Others_Flow</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:03:10 pm</td>
+<td>
+<a href="#" class="linked" test-id='55' id='55'>Others_Query</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+<span class='badge log badge-danger'>3</span>
+</span>
+<p class="name">UAT_SIP2.Check_On_Road_Price</p>
+<p class="duration text-sm">6 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>UAT_SIP2.Check_On_Road_Price</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+<span status="fail" class='badge log badge-danger'>3 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:03:31 pm</td>
+<td>
+<a href="#" class="linked" test-id='61' id='61'>Click_ChecK_On_ROAD_Price</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:03:31 pm</td>
+<td>
+<a href="#" class="linked" test-id='62' id='62'>All_Details_Of_OnRoad_Price</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:03:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='63' id='63'>All_Vehicle_Details</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:03:33 pm</td>
+<td>
+<a href="#" class="linked" test-id='64' id='64'>All_PRICE_Details</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:03:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='65' id='65'>Validate_Vehicle_Details_with_Check_On_Road_PriceTAB</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:03:39 pm</td>
+<td>
+<a href="#" class="linked" test-id='66' id='66'>Validate_Check_On_Road_Price_With_PRICE_DETAILS</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">UAT_SIP2.Check_Offer</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>UAT_SIP2.Check_Offer</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>17:03:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='70' id='70'>Vehicle_Details</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:03:40 pm</td>
+<td>
+<a href="#" class="linked" test-id='71' id='71'>CHECK_Offer_TAB</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>17:03:42 pm</td>
+<td>
+<a href="#" class="linked" test-id='72' id='72'>Verify_Check_Offer_TAB</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 1, 2025 04:59:04 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 1, 2025 05:05:23 pm</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Tests Passed</p>
+<h3>59</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Tests Failed</p>
+<h3>22</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Tests</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='72%'>
+<b>59</b> tests passed
+</small>
+</div>
+<div>
+<small data-tooltip='27%'><b>22</b> tests failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-6">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Log events</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='events-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='32%'><b>59</b> events passed</small></div>
+<div>
+<small data-tooltip='23%'><b>44</b> events failed,
+<b data-tooltip='%'>81</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"PopuPhandle":6.593,"Dealer_User_Login1":4.657,"Click_On_SIP":6.034,"Click_On_Additional_Fillter_To_Clear_Data":3.338,"Verify_Booking_Date_Fillter":7.462,"Verify_MODEL_Fillter":5.173,"Verify_Varient_Fillter":18.692,"Verify_Booking_Amount_Fillter":5.179,"Verify_Sales_Executive_NAME_Fillter":8.211,"Verify_Tentative_DeliveryDATE_Fillter":7.512,"Close_Additional_Fillter":0.153,"Click_On_Items_Per_Page":0.074,"Sale_Executive_Name_Sorting":2.586,"Cutomer_Name_Sorting":2.63,"verify_Booking_Date_Sorting":1.645,"Model_Name_Sorting":2.505,"Varient_Sorting":2.518,"Colour_Sorting":2.5,"Booking_ID_Sorting":2.574,"Click_On_Cancelled_Booking":2.102,"Click_On_Items_Per_Page":0.087,"Sale_Executive_Name_Sorting":2.231,"Cutomer_Name_Sorting":2.193,"verify_Booking_Date_Sorting":1.315,"Model_Name_Sorting":2.192,"Varient_Sorting":2.207,"Colour_Sorting":2.143,"Booking_ID_Sorting":2.121,"Click_On_Pending_Booking":2.034,"Booking_Id":3.028,"Click_Customer":2.593,"Booking_NO":0.022,"Tentative_Waiting_Period_Difference":3.094,"Edit_Final_Delivery_Date":11.328,"Verify_Booking_ID":0.001,"Product_Query_Flow":10.157,"Validate_Product_Query":1.513,"Payment_Query_Flow":10.126,"Validate_Payment_Query":1.527,"Extended_Warranty_Payment_Query":1.509,"Extended_Warranty_Query_Flow":10.256,"Maruti_Insurance_Query_Flow":10.187,"Maruti_Insurance_Query":1.515,"Loyalty_Card_Query_Flow":10.008,"Loyalty_Card_Query":1.519,"True_Value_Query_Flow":10.09,"True_Value_Query":1.505,"Delivery_Query_Flow":10.065,"Delivery_Query":1.506,"MSGA_Flow":10.024,"MSGA_Query":1.521,"Booking_Amendment_Flow":10.062,"Booking_Amendment_Query":1.522,"Others_Flow":10.053,"Others_Query":1.529,"Verify_VIP":4.286,"Verify_Marriage":4.253,"Verify_Birthday":3.732,"Verify_Anniversary":4.258,"Verify_Other":2.751,"Click_ChecK_On_ROAD_Price":0.648,"All_Details_Of_OnRoad_Price":1.216,"All_Vehicle_Details":0.047,"All_PRICE_Details":6.622,"Validate_Vehicle_Details_with_Check_On_Road_PriceTAB":0.002,"Validate_Check_On_Road_Price_With_PRICE_DETAILS":0.002,"Customer_Name":0.033,"SVOC_Customer_Name":1.056,"Booking_NO":0.033,"Vehicle_Details":0.026,"CHECK_Offer_TAB":1.044,"Verify_Check_Offer_TAB":0.002,"Click_On_BackButton":0.631,"Click_On_Documentation_Reports":12.85,"Verify_DealerOutlet_TV01":14.133,"Verify_DealerOutlet_BZC1":13.938,"Verify_DealerOutlet_BZD1":13.97,"Verify_DealerOutlet_CTQ1":14.005,"Verify_DealerOutlet_SGL1":13.965,"Verify_DealerOutlet_K701":3.978,"Verify_DealerOutlet_SMD1":14.017
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>UAT_SIP2.Cancelled_Booking_Sorting</td>
+<td>6</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+<tr>
+<td>UAT_SIP2.Pending_Booking_Sorting</td>
+<td>4</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>UAT_SIP2.Additional_Fillter</td>
+<td>10</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>90.909%</td>
+</tr>
+<tr>
+<td>UAT_SIP2.Customer_Tag</td>
+<td>5</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>UAT_SIP2.SVOC</td>
+<td>2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>66.667%</td>
+</tr>
+<tr>
+<td>UAT_SIP2.Documentation_Reports</td>
+<td>2</td>
+<td>7</td>
+<td>0</td>
+<td>0</td>
+<td>22.222%</td>
+</tr>
+<tr>
+<td>UAT_SIP2.Tentative_Waiting_and_Final_Delivery_Date</td>
+<td>6</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>85.714%</td>
+</tr>
+<tr>
+<td>UAT_SIP2.Customer_Query</td>
+<td>20</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>UAT_SIP2.Check_On_Road_Price</td>
+<td>3</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>UAT_SIP2.Check_Offer</td>
+<td>1</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>33.333%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>OS</td>
+<td>Windows 11</td>
+</tr>
+<tr>
+<td>Tester</td>
+<td>Himanshu Ranjan</td>
+</tr>
+<tr>
+<td>Java Version</td>
+<td>21.0.6</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>Chrome</td>
+</tr>
+<tr>
+<td>Browser Version</td>
+<td>130.0.6723.70</td>
+</tr>
+<tr>
+<td>Host Name</td>
+<td>QA-HIMANSHU-RANJAN</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 59,
+failParent: 22,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 0,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 0,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+passEvents: 59,
+failEvents: 44,
+warningEvents: 0,
+skipEvents: 0,
+infoEvents: 81
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
