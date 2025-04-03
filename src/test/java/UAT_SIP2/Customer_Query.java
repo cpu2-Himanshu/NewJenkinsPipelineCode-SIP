@@ -180,7 +180,7 @@ public class Customer_Query {
     
     	  WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(10));	    	
     	  Thread.sleep(500);
-    	  WebElement QUERY = wait1.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@formcontrolname=\"customerRemark\"]")));
+    	  WebElement QUERY = wait1.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id[contains(., 'mat-input-')]]")));
   	       QUERY.sendKeys(Remarks);
   	      
   	      
